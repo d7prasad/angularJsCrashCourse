@@ -25,3 +25,32 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+#Commands Used for this project
+
+1. npm --version - to check the npm installed or not.
+
+1. sudo npm install -g @angular/cli - to install angular cli globally
+
+1. ng --version - to check our angular client installed correctly.
+
+1. ng new angular-crash-todolist - This will create a new angularjs app
+
+1. sudo ng serve --open 
+
+> To create a component
+
+1. ng generate component components/Todos
+
+1. Generate todo as a own component - ng g c components/TodoItem
+
+>To create a service
+
+1. ng g s services/Todo
+
+> To import a new module into Angular(e.g: Http)
+
+1. in app.module.ts -> import HttpClientModule.
+
+1. And add an entry under imports

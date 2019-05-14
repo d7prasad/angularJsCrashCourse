@@ -54,3 +54,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1. in app.module.ts -> import HttpClientModule.
 
 1. And add an entry under imports
+
+> To generate component for Header
+
+1. ng g c components/layout/Header
+
+> To add addTodo
+
+1. ng g c components/AddTodo
+
+1. In order to use, ngmodel -> we have to use import FormsModule
+
+> To build - ngbuild
